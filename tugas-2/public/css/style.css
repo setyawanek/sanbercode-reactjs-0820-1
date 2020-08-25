@@ -1,0 +1,119 @@
+body {
+  background-color: white;
+  background-image: url(/tugas-2/public/img/pattern.jpg);
+	margin: 0;
+}
+
+header{
+  padding: auto;
+}
+
+header a:hover{
+  background-color: lightskyblue;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: navy;
+}
+
+.menu{
+  padding:auto;
+  float: right;
+  padding-top: 20px;
+}
+
+.menu a{
+  font-size: larger;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+section{
+	width: 70%;
+	margin: auto;
+	margin-top: 20px;
+	padding: 30px;
+	background: white;
+	border-radius: 10px;
+  box-shadow: 2px 4px 12px rgb(0,0,0,0.2)
+
+}
+
+h1{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 30px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.list{
+  border-bottom: 1px solid black;
+}
+
+.data-peserta ol li{
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+
+.data-peserta{
+  width: 50%;
+	margin: auto;
+	margin-top: 20px;
+	padding: 20px;
+  background: white;
+  margin-bottom: 316px;
+	border-radius: 10px;
+  box-shadow: 2px 4px 12px rgb(0,0,0,0.2)
+}
+
+.form{
+  width: 50%;
+	margin: auto;
+	margin-top: 10px;
+	padding: 20px;
+	background: white;
+	border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+
+.form input{
+  margin-left: 50px;
+}
+
+#email{
+  margin-left: 113px;
+}
+
+#nama{
+  margin-left: 113px;
+}
+
+#pesan{
+  margin-left: 113px;
+}
+
+#kirim{
+  margin: auto;
+}
+
+footer {
+	margin-top: 20px;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color:black;
+	padding: 5px 0;
+}
+
+footer h5{
+  color: white;
+  text-align: center;
+}
