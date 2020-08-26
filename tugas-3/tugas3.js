@@ -5,7 +5,8 @@ var kataKedua = "senang"
 var kataKetiga = "belajar"
 var kataKeempat = "javascript"
 
-var gabungan = kataPertama +" "+ kataKedua+ " " + kataKetiga +" "+ kataKeempat
+
+var gabungan = kataPertama +" "+ kataKedua+ " " + kataKetiga +" "+ kataKeempat.toLocaleUpperCase();
 
 console.log(gabungan)
 
