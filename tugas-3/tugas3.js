@@ -6,7 +6,7 @@ var kataKetiga = "belajar"
 var kataKeempat = "javascript"
 
 
-var gabungan = kataPertama +" "+ kataKedua+ " " + kataKetiga +" "+ kataKeempat.toLocaleUpperCase();
+var gabungan = kataPertama +" "+ kataKedua.charAt(0).toLocaleUpperCase(0,1).concat(kataKedua.substring(1))+ " " + kataKetiga +" "+ kataKeempat.toLocaleUpperCase();
 
 console.log(gabungan)
 
@@ -47,15 +47,15 @@ var nilai;
 nilai = 75
 
 if (nilai >= 80)
-    console.log("indeks nilai anda A")
+    console.log("A")
 else if ( nilai >= 70 && nilai < 80)
-    console.log("indeks nilai anda B") //jawaban B
+    console.log("B") //jawaban B
 else if( nilai >= 60 && nilai < 70)
-    console.log("indeks nilai anda C")
+    console.log("C")
 else if( nilai >= 50 && nilai < 60)
-    console.log("indeks nilai anda D")
+    console.log("D")
 else
-    console.log("indeks nilai anda E")
+    console.log("E")
 
 //soal 5
 var tanggal = 25;
