@@ -1,5 +1,5 @@
 //soal 1 
-
+console.log("----jawaban soal 1----")
 function halo(){
     return "halo sanbers"
 }
@@ -7,7 +7,7 @@ function halo(){
 console.log(halo())
 
 //soal 2
-
+console.log("----jawaban soal 2----")
 function kalikan(num1, num2){
     return num1 * num2
 }
@@ -18,7 +18,7 @@ var hasilKali = kalikan(num1, num2)
 console.log(hasilKali) // 48
 
 // soal 3
-
+console.log("----jawaban soal 3----")
 function introduce(name, age, address, hobby){
     return "nama saya "+name+", umur saya "+age+" tahun, alamat saya di "+address+", dan saya punya hobby yaitu "+hobby+"!"
 }
@@ -32,6 +32,7 @@ var perkenalan = introduce(name, age, address, hobby)
 console.log(perkenalan) // Menampilkan "Nama saya John, umur saya 30 tahun, alamat saya di jalan belum jadi, dan saya punya hobby yaitu Gaming!
 
 //soal 4
+console.log("----jawaban soal 4----")
 var arrayDaftarPeserta = ["Asep", "laki-laki", "baca buku" , 1992]
 var objek = {
     nama : "asep",
@@ -43,6 +44,7 @@ var objek = {
 console.log(objek)
 
 //soal 5
+console.log("----jawaban soal 5----")
 var buahku = [
     {nama: "strawberry",
     warna: "merah",
@@ -68,7 +70,7 @@ var buahku = [
 console.log(buahku[0]);
 
 //soal 6
-
+console.log("----jawaban soal 6----")
 var dataFilm = []
 
 function tambahDataFilm(nama, durasi, genre, tahun) {
